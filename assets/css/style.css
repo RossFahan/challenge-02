@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+    color: rgb(27, 229, 229);
+  }x
+
+  header h1 {
+    font-size: 350%; /** ??? **/
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: rgb(27, 229, 229);
+    text-decoration: underline rgb(27, 229, 229);
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+  flex: 1;
+  display: flex;
+  }
+  
+  .backgroundImg {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+  
+  .app {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .app img {
+    max-width: 100%;
+    height: auto; 
+  }
+
+ 
