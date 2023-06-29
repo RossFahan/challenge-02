@@ -40,7 +40,12 @@ body {
     color: rgb(27, 229, 229);
     text-decoration: underline rgb(27, 229, 229);
   }
-  
+
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
   .backgroundImg {
     height: 200px;
     width: 100%;
@@ -48,15 +53,24 @@ body {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
-}
-  #about { 
+    }
 
-  }
+    .about { 
 
-  #work { 
+    }
 
-  }
+    .work { 
 
-  #contact { 
+    }
 
-  }
+    .contact { 
+
+    }
+
+    #app {
+
+    }
+
+    #app-large {
+    
+    }
