@@ -3,28 +3,33 @@ body {
   }
   
   header {
+    display: flex;
+    align-items: baseline;
     background-color: #333;
+    justify-content: space-between;
     padding: 10px;
     color: rgb(27, 229, 229);
-  }x
 
-  /** header h1 {
-    font-size: 350%;
+  }
+  
+  header h1 {
+    font-size: 300%;
+    background-color: rgb(27, 229, 229);
+    color: #333;
+    font-family: Helvetica;
   } 
-    /** ??? **/
 
   
   nav {
     display: flex;
-    align-items: center;
     justify-content: right;
   }
   
   nav ul {
     list-style-type: none;
     display: flex;
-    align-items: center;
-    font-size: 150%;
+    align-items: right;
+    font-size: 100%;
   }
   
   nav ul li {
