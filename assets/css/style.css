@@ -40,3 +40,23 @@ body {
     color: rgb(27, 229, 229);
     text-decoration: underline rgb(27, 229, 229);
   }
+  
+  .backgroundImg {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+  #about { 
+
+  }
+
+  #work { 
+
+  }
+
+  #contact { 
+
+  }
