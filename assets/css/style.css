@@ -46,7 +46,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 30px;
-    margin-bottom: 30px;
   }
 
   .backgroundImg {
@@ -62,18 +61,26 @@ body {
         display: flex;
     }
 
+    .about h2{ 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+     }
+
     .about p{ 
        display: flex;
        flex-direction: row;
     }
+
     .work { 
-        display: flex 1;
+        display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
     }
 
-    .work img{
-        max-width: 250px;
+    .work h2{ 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     .contact { 
@@ -91,27 +98,15 @@ body {
         font-size: 100%;
       }
 
-
     .app {
         border: 6px solid lightblue;
         border-radius: 5px;
         padding: 3px;
         margin: 10px;
-
     }
-
-    .app-large {
+    .app-large{
         border: 6px solid lightblue;
         border-radius: 5px;
         padding: 3px;
         margin: 10px;
-    }
-
-    .app image{
-
-    }
-
-    .app-large img{
-
-
     }
