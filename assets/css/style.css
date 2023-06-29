@@ -61,7 +61,13 @@ body {
     }
 
     .work { 
-        display: flex;
+        display: flex 1;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .work div img{
+        max-width: 250px;
     }
 
     .contact { 
@@ -83,15 +89,16 @@ body {
     .app {
         border: 6px solid lightblue;
         border-radius: 5px;
-        padding: 10px;
+        padding: 3px;
+        margin: 10px;
 
     }
 
     .app-large {
         border: 6px solid lightblue;
         border-radius: 5px;
-        padding: 10px;
-
+        padding: 3px;
+        margin: 10px;
     }
 
     .app image{
