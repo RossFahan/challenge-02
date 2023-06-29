@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 10px;
+    color: rgb(27, 229, 229);
+  }x
+
+  header h1 {
+    font-size: 350%; /** ??? **/
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: rgb(27, 229, 229);
+    text-decoration: underline rgb(27, 229, 229);
+  }
