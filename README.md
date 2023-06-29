@@ -10,7 +10,7 @@
 
 ## Description 
 
-[Visit the Deployed Site](https://rossfahan.github.io/Horiseon-v2/)
+[Visit the Deployed Site](https://rossfahan.github.io/my-portfolio/)
 
 The site is a visualization of my recent web development projects, along with links to contact me, and resource on my work backfround, foramtted in a neat responsize layout.
 
@@ -18,7 +18,7 @@ Please expect more projects to come, as well as upgrades to the site layout in t
 
 
 ## Landing Page
-![Site Langing Page](./assets/images/landing-page.png)
+![Site Langing Page](/assets/images/landing.png)
 
 
 ## Learning Points 
@@ -68,6 +68,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
