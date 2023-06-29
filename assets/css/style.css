@@ -84,7 +84,7 @@ body {
 
     .contact { 
         display: flex;
-        align-items: baseline;
+        align-items: center;
         background-color: #333;
         justify-content: space-evenly;
         padding: 10px;
@@ -94,7 +94,6 @@ body {
     .contact ul {
         list-style-type: none;
         font-size: 100%;
-
       }
 
 
@@ -128,4 +127,9 @@ body {
     .contact ul a{
         color: white;
         text-decoration: none;
+      }
+
+
+    .contact h2{
+        font-size: 200%;
       }
