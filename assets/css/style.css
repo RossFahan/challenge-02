@@ -22,14 +22,14 @@ body {
   
   nav {
     display: flex;
-    justify-content: right;
   }
   
-  nav ul {
+  header nav ul {
     list-style-type: none;
     display: flex;
     align-items: right;
     font-size: 100%;
+    justify-content: right;
   }
   
   nav ul li {
@@ -44,33 +44,61 @@ body {
   main{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .backgroundImg {
-    height: 200px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/background.jpg");
-    background-size: cover;
-    background-position: center;
+        height: 200px;
+        width: 100%;
+        margin-bottom: 25px;
+        background-image: url("../images/background.jpg");
+        background-size: cover;
+        background-position: center;
     }
 
     .about { 
-
+        display: flex;
     }
 
     .work { 
-
+        display: flex;
     }
 
     .contact { 
+        display: flex;
+        align-items: baseline;
+        background-color: #333;
+        justify-content: space-between;
+        padding: 10px;
+        color: rgb(27, 229, 229);
+    }
+
+    .contact ul {
+        list-style-type: none;
+        display: flex;
+        font-size: 100%;
+      }
+
+
+    .app {
+        border: 6px solid lightblue;
+        border-radius: 5px;
+        padding: 10px;
 
     }
 
-    #app {
+    .app-large {
+        border: 6px solid lightblue;
+        border-radius: 5px;
+        padding: 10px;
 
     }
 
-    #app-large {
-    
+    .app image{
+
+    }
+
+    .app-large img{
+
+
     }
